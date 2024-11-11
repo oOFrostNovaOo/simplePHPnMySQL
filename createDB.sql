@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS my_database;
+USE my_database;
+
+CREATE TABLE IF NOT EXISTS user (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id VARCHAR(50) NOT NULL,
+    user_name VARCHAR(100) NOT NULL,
+    password VARCHAR(100) NOT NULL,
+    date DATE NULL
+);
