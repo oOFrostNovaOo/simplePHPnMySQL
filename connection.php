@@ -1,9 +1,9 @@
 <?php
 
-$dbhost = "localhost";
-$dbuser = "root";
-$dbpass = "";
-$dbname = "login_sample_db";
+$dbhost = "DB_ENDPOINT";
+$dbuser = "DB_USER";
+$dbpass = "DB_PASS";
+$dbname = "DB_NAME";
 
 if(!$con = mysqli_connect($dbhost,$dbuser,$dbpass,$dbname))
 {
